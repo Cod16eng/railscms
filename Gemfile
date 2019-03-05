@@ -29,6 +29,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+gem 'active_admin_editor', github: 'ejholmes/active_admin_editor'
+gem 'font-awesome-rails'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'autoprefixer-rails'
+gem 'jquery-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
