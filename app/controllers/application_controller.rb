@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_action :getPageNav
+  before_action :getPageNav, :getJumbotron, :getBlock
 
   protect_from_forgery with: :exception
 
@@ -15,6 +15,6 @@ class ApplicationController < ActionController::Base
   end
 
   def getBlock
-  	@block =Block.where(:position => "block").order(order: :asc)
+  	@blocks =Block.where(:position => "block").order(order: :asc)
   end
 end
